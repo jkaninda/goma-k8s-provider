@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.example
+.history
+Dockerfile.dev
+bin
+.DS_Store
