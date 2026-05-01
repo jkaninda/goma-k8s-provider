@@ -1,7 +1,7 @@
 # goma-k8s-provider
 
 A lightweight sidecar that watches Kubernetes `Route` and `Middleware` custom
-resources (defined by [goma-operator](https://github.com/jkaninda/goma-operator)) and materializes them
+resources (defined by [Goma Operator](https://github.com/jkaninda/goma-operator)) and materializes them
 into a config bundle on disk that [Goma Gateway](https://github.com/jkaninda/goma-gateway)
 consumes via its file provider.
 
@@ -99,8 +99,10 @@ make docker-build     # container image
 ## Related Projects
 
 - **[Goma Gateway](https://github.com/jkaninda/goma-gateway)** — Cloud-native API Gateway
-- **[Goma HTTP Provider](https://github.com/jkaninda/goma-http-provider)** — HTTP provider specification
-- **[Okapi](https://github.com/jkaninda/okapi)** — Go web framework
+- **[Goma HTTP Provider](https://github.com/jkaninda/goma-http-provider)** — Goma Operator
+- **[Goma Operator](https://github.com/jkaninda/goma-operator)** — Kubernetes Operator for Goma Gateway
+- **[Goma Admin](https://github.com/jkaninda/goma-admin)** — Control Plane for Goma Gateway — Manage, configure, and monitor distributed Goma Gateway.
+
 
 ## License
 
