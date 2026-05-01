@@ -5,7 +5,7 @@ go 1.26.1
 require (
 	github.com/fsnotify/fsnotify v1.9.0
 	github.com/jkaninda/go-utils v0.1.4
-	github.com/jkaninda/goma-operator v0.2.0-rc.2
+	github.com/jkaninda/goma-operator v0.2.0
 	gopkg.in/yaml.v3 v3.0.1
 	k8s.io/api v0.35.3
 	k8s.io/apimachinery v0.35.3
